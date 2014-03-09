@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="317dp"
+        android:layout_marginTop="317dp"
+        android:background="@drawable/ic_launcher"
+        android:contentDescription="@string/logo" />
+    
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="512dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logo"
+        android:text="@string/sign_up"
+        android:background="@android:color/white" />
+    
+    <Button
+        android:id="@+id/log_in"
+        android:layout_below="@+id/sign_up"
+        android:layout_width="512dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/log_in"
+        android:background="@android:color/darker_gray" />
+
+    
+
+</RelativeLayout>

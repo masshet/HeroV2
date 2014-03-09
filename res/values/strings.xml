@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HeroV2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="drawer_list">
+        <item>Search</item>
+        <item>User</item>
+        <item>Resume</item>
+        <item>Offers</item>
+        <item>Selected</item>
+    </string-array>
+    <string name="sign_up">Sign up</string>
+    <string name="log_in">Log in</string>
+    <string name="logo">Logo</string>
+
+</resources>
